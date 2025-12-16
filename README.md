@@ -1,87 +1,50 @@
-# Welcome to React Router!
+# WEB103 Prework - *CreatorVerse*
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Submitted by: **Nour Siwar**
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+About this web app: **A person's top content creators can say a lot about them. Do they prefer lockpicking videos 🔒, casual art streams 🖼️, or hustle-culture TikTokers 📱?**
 
-## Features
+Time spent: **4** hours
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Required Features
 
-## Getting Started
+The following **required** functionality is completed:
 
-### Installation
+- [X] **A logical component structure in React is used to create the frontend of the app**
+- [X] **At least five content creators are displayed on the homepage of the app**
+- [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [X] **API calls use the async/await design pattern via Axios or fetch()**
+- [X] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [X] **Each content creator has their own unique URL**
+- [X] **The user can edit a content creator to change their name, url, or description**
+- [X] **The user can delete a content creator**
+- [X] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-Install the dependencies:
+The following **optional** features are implemented:
 
-```bash
-npm install
-```
+- [X] Picocss is used to style HTML elements
+- [X] The content creator items are displayed in a creative format, like cards instead of a list
+- [X] An image of each content creator is shown on their content creator card
 
-### Development
+The following **additional** features are implemented:
 
-Start the development server with HMR:
+- [X] It's a backend feature but I used a new IDE called **Web Storm**, which is part of JetBrains package. It's nicer than VS Code to do web development in.
+## Video Walkthrough
 
-```bash
-npm run dev
-```
+Here's a walkthrough of implemented required features:
 
-Your application will be available at `http://localhost:5173`.
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-## Building for Production
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  LiceCap
+## Notes
 
-Create a production build:
+- Some challenges I encountered were mainly setting up the project using the new IDE I've never used before called **Web Storm**, but the project was easy for me as I took WEB 102 and have already done this project in that class.
 
-```bash
-npm run build
-```
+## License
 
-## Deployment
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-### Docker Deployment
+> http://www.apache.org/licenses/LICENSE-2.0
 
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
